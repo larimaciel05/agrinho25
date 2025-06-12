@@ -1,70 +1,82 @@
+/* Resetando margens e preenchimento */
 * {
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
 }
 
+/* Definindo fontes */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos para o cabeçalho */
 .cabeçalho {
-    background-color: #0c0101;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
+    background-color: #009c41; /* Verde */
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 .cabeçalho-título {
-    color: #3f9005;
-    font-size: 54px;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
 .cabeçalho-lista {
-    color: white;
-    font-size: 22px;
-}
-
-.cabeçalho-logotipo {
-    width: 120px;
-}
-
-.cabeçalho-lista-item1 {
-    display: inline-block;
-    margin: 0 16px;
-}
-
-.cabeçalho-lista-item2 {
-    display: inline-block;
-    margin: 0 16px;
-}
-
-.agro{
-    background-image: linear-gradient(#300301, #960903);
-    color: white;
     display: flex;
     justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.cabeçalho-lista-item1, .cabeçalho-lista-item2 {
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Estilos para a seção "Agro" */
+.agro {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
-
-}
-
-.agro-título {
-    font-size: 32px;
-    padding: 24px;
-}
-
-.agro-texto1 {
-    font-size: 26px;
-    padding: 24px;
-}
-
-.agro-texto2 {
-    font-size: 26px;
-    padding: 24px;
+    padding: 40px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 10px;
 }
 
 .agro-div {
-    width: 40%;
+    max-width: 50%;
+}
+
+.agro-título {
+    font-size: 2rem;
+    color: #009c41;
+    margin-bottom: 15px;
+}
+
+.agro-texto1 {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.agro-texto2 {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.8;
 }
 
 .agro-imagem {
-    width: 30%;
+    max-width: 45%;
+    height: auto;
+    border-radius: 8px;
 }
