@@ -17,7 +17,7 @@ body {
 
 /* Estilo para o cabeçalho */
 .cabeçalho {
-    background-color: #7ad97d;
+    background-color: #145d16;
     color: white;
     padding: 20px;
     text-align: center;
@@ -80,7 +80,7 @@ body {
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #0e0c0c;
+    background-color: #1f6112;
     color: white;
     font-size: 1em;
     position: relative;
