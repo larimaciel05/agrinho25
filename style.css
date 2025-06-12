@@ -17,7 +17,7 @@ body {
 
 /* Estilo para o cabeçalho */
 .cabeçalho {
-    background-color: #4CAF50;
+    background-color: #7ad97d;
     color: white;
     padding: 20px;
     text-align: center;
@@ -57,7 +57,7 @@ body {
 .agro-título {
     font-size: 2em;
     font-weight: bold;
-    color: #4CAF50;
+    color: #fbfcfb;
     margin-bottom: 15px;
 }
 
