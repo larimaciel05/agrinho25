@@ -1,82 +1,89 @@
-/* Resetando margens e preenchimento */
+/* Resetando alguns estilos padrões */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Definindo fontes */
+/* Definindo fonte padrão para todo o documento */
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    margin: 0;
+    padding: 0;
 }
 
-/* Estilos para o cabeçalho */
+/* Estilo para o cabeçalho */
 .cabeçalho {
-    background-color: #009c41; /* Verde */
+    background-color: #4CAF50;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
 .cabeçalho-título {
-    font-size: 2.5rem;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
     margin-bottom: 10px;
 }
 
 .cabeçalho-lista {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    list-style-type: none;
+    padding: 10px;
 }
 
 .cabeçalho-lista-item1, .cabeçalho-lista-item2 {
-    font-size: 1rem;
-    color: #fff;
-    text-transform: uppercase;
-    cursor: pointer;
+    margin: 0 15px;
+    list-style: none;
 }
 
-/* Estilos para a seção "Agro" */
+/* Estilo para a seção Agro */
 .agro {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 40px;
-    background-color: white;
-    margin: 20px auto;
-    max-width: 1200px;
-    border-radius: 10px;
+    background-color: #fff;
 }
 
 .agro-div {
-    max-width: 50%;
+    flex: 1;
+    padding: 20px;
 }
 
 .agro-título {
-    font-size: 2rem;
-    color: #009c41;
+    font-size: 2em;
+    font-weight: bold;
+    color: #4CAF50;
     margin-bottom: 15px;
 }
 
-.agro-texto1 {
-    font-size: 1.1rem;
-    color: #333;
-    line-height: 1.8;
+.agro-texto1, .agro-texto2 {
+    font-size: 1.1em;
+    color: #555;
     margin-bottom: 20px;
 }
 
-.agro-texto2 {
-    font-size: 1.1rem;
-    color: #333;
-    line-height: 1.8;
+.agro-imagem {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.agro-imagem {
-    max-width: 45%;
-    height: auto;
-    border-radius: 8px;
+/* Estilo para o rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    font-size: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
